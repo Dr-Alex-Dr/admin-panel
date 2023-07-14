@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section class="sidebar">
+        <ul class="sidebar_list">
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/users.html"><li class="sidebar_list__item">Пользователи</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/messages.html"><li class="sidebar_list__item">Сообщения</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/answers.html"><li class="sidebar_list__item">Ответы бота</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/subscription.html"><li class="sidebar_list__item">Подписка</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/gpt.html"><li class="sidebar_list__item">GPT</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/settings.html"><li class="sidebar_list__item">Настройки</li></a>
+        </ul>
+    </section>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        <ul id="menu">
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/users.html">Пользователи</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/messages.html">Сообщения</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/answers.html">Ответы бота</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/subscription.html">Подписка</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/gpt.html">GPT</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/settings.html">Настройки</a></li>
+        </ul>
+       </div>
+      </nav>
+
+    <section class="gpt settings">
+        <h2 class="messages_title title">Gpt</h2>
+        <div class="messages_wrapper messages_wrapper-mobile">
+        <div class="message">
+            <p class="message_type">promt</p>
+            <textarea name="message_text" class="message_text" oninput="autoResize()">напиши ответ на этот отзыв от имени продавца</textarea>      
+        </div>
+        
+        <p class="btn message_btn">Сохранить</p>
+    </div>
+    </section> 
+
+</body>
+    <script src="scripts/gpt.js"></script>
+</html>
+
+
+    

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section class="sidebar">
+        <ul class="sidebar_list">
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/users.html"><li class="sidebar_list__item">Пользователи</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/messages.html"><li class="sidebar_list__item">Сообщения</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/answers.html"><li class="sidebar_list__item">Ответы бота</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/subscription.html"><li class="sidebar_list__item">Подписка</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/gpt.html"><li class="sidebar_list__item">GPT</li></a>
+            <a class="sidebar_list__link" href="http://localhost:3000/pages/settings.html"><li class="sidebar_list__item">Настройки</li></a>
+        </ul>
+    </section>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        <ul id="menu">
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/users.html">Пользователи</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/messages.html">Сообщения</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/answers.html">Ответы бота</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/subscription.html">Подписка</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/gpt.html">GPT</a></li>
+          <li><a class="sidebar_list__item-mobile" href="http://localhost:3000/pages/settings.html">Настройки</a></li>
+        </ul>
+       </div>
+      </nav>
+
+    <section class="subscription settings">
+        
+        <h2 class="messages_title title">Подписка</h2>
+        <div class="messages_wrapper messages_wrapper-mobile">
+        <p class="comand">/subscription</p>
+        <div class="message">
+            <p class="message_type">сообщение</p>
+            <textarea name="message_text-1" class="message_text" oninput="autoResize()">
+Подписка RatingRanger
+
+• Неограниченное количевто запрсов
+• Прямое общение с техподержкой
+
+Тарифный план</textarea>      
+        </div>
+        <div class="button">
+            <p class="message_type">Текст кнопки</p>
+            <textarea name="message_text-2" class="message_text button_text message_cost" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button" style="margin-left: 20px;">
+            <p class="message_type">Стоимость</p>
+            <textarea name="message_text-3" class="message_text button_text" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button" style="margin-left: 40px;">
+            <p class="message_type">Срок действия подписки в месяцах</p>
+            <textarea name="message_text-4" class="message_text button_text" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button">
+            <p class="message_type">Текст кнопки</p>
+            <textarea name="message_text-5" class="message_text button_text message_cost" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button" style="margin-left: 20px;">
+            <p class="message_type">Стоимость</p>
+            <textarea name="message_text-6" class="message_text button_text" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button" style="margin-left: 40px;">
+            <p class="message_type">Срок действия подписки в месяцах</p>
+            <textarea name="message_text-7" class="message_text button_text" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button">
+            <p class="message_type">Текст кнопки</p>
+            <textarea name="message_text-8" class="message_text button_text message_cost" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button" style="margin-left: 20px;">
+            <p class="message_type">Стоимость</p>
+            <textarea name="message_text-9" class="message_text button_text" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button" style="margin-left: 40px;">
+            <p class="message_type">Срок действия подписки в месяцах</p>
+            <textarea name="message_text-10" class="message_text button_text" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button">
+            <p class="message_type">Текст кнопки</p>
+            <textarea name="message_text-11" class="message_text button_text message_cost" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button" style="margin-left: 20px;">
+            <p class="message_type">Стоимость</p>
+            <textarea name="message_text-12" class="message_text button_text" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <div class="button" style="margin-left: 40px;">
+            <p class="message_type">Срок действия подписки в месяцах</p>
+            <textarea name="message_text-13" class="message_text button_text" oninput="autoResize()">Добавить новый Товар</textarea>      
+        </div>
+        <p class="btn message_btn">Сохранить</p>
+    </div>
+
+    </section> 
+
+</body>
+    <script src="scripts/subscription.js"></script>
+</html>
+
+
+    
