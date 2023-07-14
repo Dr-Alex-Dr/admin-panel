@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000';
+const url = 'https://ratingranger.site/';
 
 // let data = {
 //     "message_text-1": "Подписка RatingRanger\n\n• Неограниченное количевто запрсов\n• Прямое общение с техподержкой\n\nТарифный план",

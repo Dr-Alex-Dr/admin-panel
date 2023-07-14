@@ -70,7 +70,7 @@ if (paramValue.length !== 0) {
 // отправляем запрос с данными на сервер
 function sendRequest(data = {data: true}) {
     console.log(data);
-    fetch(`http://localhost:3000/api/messages`, {
+    fetch(`https://ratingranger.site/api/messages`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

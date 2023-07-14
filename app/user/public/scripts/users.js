@@ -23,7 +23,7 @@
 // это убрать ^
 
 
-const url = 'http://localhost:3000';
+const url = 'https://ratingranger.site/';
 
 sendRequest();
 

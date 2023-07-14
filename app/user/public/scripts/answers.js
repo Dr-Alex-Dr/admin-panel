@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000';
+const url = 'https://ratingranger.site/';
 
 // let data = {
 //     "message_text-0": "/услуги",
